@@ -2,16 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import "./global.css";
-import Badge from "./components/Badge";
+import BadgeNew from "./pages/BadgeNew";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Badge
-      firstName="Edilberto"
-      lastName="Vazquez"
-      jobTitle="Systems and IT engineer"
-      twitter="No tengo twitter"
-    />
+    <BadgeNew />
   </React.StrictMode>,
   document.getElementById("root")
 );
