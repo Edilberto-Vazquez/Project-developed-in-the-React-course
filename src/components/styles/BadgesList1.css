@@ -1,0 +1,54 @@
+.list-unstyled li {
+  background: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
+  border-radius: 5px;
+  margin-block-end: 40px;
+  display: grid;
+  row-gap: 10px;
+  justify-items: center;
+}
+
+.Badges-co-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #a3a3a3;
+}
+
+.Badges-co-user-info p {
+  margin: 0;
+}
+
+.Badges-co-user-info__Name {
+  font-weight: bold;
+}
+
+.Badges-co-user-info__twitter {
+  color: #1da1f2;
+}
+
+.Badges-co-user-info__JobTitle {
+  font-size: 0.8rem;
+}
+
+.Badges-co-user-info img {
+  width: 20px;
+  height: 20px;
+}
+
+@media (min-width: 425px) {
+  .list-unstyled li {
+    margin-block-end: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .Badges-co-user-info p {
+    padding-inline-start: 20px;
+  }
+
+  .Badges-co-user-info img {
+    width: 20px;
+    height: 20px;
+  }
+}
