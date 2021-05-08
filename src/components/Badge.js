@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import confLogo from "../images/badge-header.svg";
 import "./styles/Badge.css";
 

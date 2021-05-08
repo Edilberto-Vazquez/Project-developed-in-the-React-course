@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component } from "react";
 
 class BadgeForm extends Component {
   // state = {};
@@ -37,7 +37,7 @@ class BadgeForm extends Component {
             />
           </div>
           <div className="form-group">
-            <label>last Name</label>
+            <label>Last Name</label>
             <input
               onChange={this.props.onChange}
               className="form-control"

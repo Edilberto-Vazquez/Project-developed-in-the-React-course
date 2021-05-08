@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import "./styles/BadgesList1.css";
 import avatar from "../images/twitter.svg";
 

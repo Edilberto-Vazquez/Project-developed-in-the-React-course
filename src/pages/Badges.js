@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import { Component, Fragment } from "react";
+import { Link } from "react-router-dom";
 import "./styles/Badges.css";
 import logo from "../images/badge-header.svg";
-import NavBar from "../components/Navbar";
 import BadgesList from "../components/BadgesList";
 
 class Badges extends Component {
@@ -41,8 +41,7 @@ class Badges extends Component {
   };
   render() {
     return (
-      <div>
-        <NavBar />
+      <Fragment>
         <div className="Badges-co">
           <div className="Badges-co__hero">
             <div className="Badges-co__container">
@@ -52,9 +51,9 @@ class Badges extends Component {
         </div>
         <div className="Badges-co__container">
           <div className="Badges-co__buttons">
-            <a href="/badges/new" className="btn btn-primary">
+            <Link to="/badges/new" className="btn btn-primary">
               New Badge
-            </a>
+            </Link>
           </div>
         </div>
         <div className="Badges__list">
@@ -62,7 +61,7 @@ class Badges extends Component {
             <BadgesList badges={this.state.data} />
           </div>
         </div>
-      </div>
+      </Fragment>
     );
   }
 }
